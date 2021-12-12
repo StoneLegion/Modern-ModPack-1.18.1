@@ -1,0 +1,19 @@
+{
+  "modules": {
+    "megane-team-reborn-energy": {
+      "badasintended.megane.impl.TeamRebornEnergy": true
+    },
+    "megane-fabric-transfer": {
+      "badasintended.megane.impl.FabricTransfer": true
+    },
+    "megane-modern-industrialization": {
+      "badasintended.megane.impl.ModernIndustrialization": true
+    },
+    "megane-applied-energistics-2": {
+      "badasintended.megane.impl.AppliedEnergistics2": true
+    },
+    "megane-vanilla": {
+      "badasintended.megane.impl.Minecraft": true
+    }
+  }
+}
