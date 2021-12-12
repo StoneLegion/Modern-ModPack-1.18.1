@@ -76,7 +76,7 @@
 			/* Display absorption in the same row as health
 			   Absorption is rendered after and over health depending on the mode
 			*/
-			"absorption_over_health": true
+			"absorption_over_health": true,
 			/* Display mode for absorption
 			   absorption.advanced.absorption_over_health must be true
 			   Modes:
