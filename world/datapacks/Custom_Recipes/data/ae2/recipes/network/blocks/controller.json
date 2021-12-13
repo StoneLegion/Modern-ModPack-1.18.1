@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "ae2:smooth_sky_stone_block"
+    },
+    "b": {
+      "item": "ae2:fluix_crystal"
+    },
+    "c": {
+      "item": "modern_industrialization:singularity"
+    }
+  },
+  "result": {
+    "item": "ae2:controller"
+  }
+}
