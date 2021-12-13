@@ -1,0 +1,72 @@
+
+#General Mod Config
+[general]
+	#The Token of the Bot to use. KEEP THIS PRIVATE
+	botToken = "CHANGEMECHANGEMECHANGEMECHANGEMECHANGEMECHANGEMECHANGEMECHANGEMECHANGEMECHANGEME"
+	#Should the bot be enabled or not
+	enabled = true
+	#Should debug logging be enabled? WARNING: THIS CAN SPAM YOUR LOG!
+	debugging = true
+	activityUpdateInterval = 30
+	#The prefix to use for bot commands. Example: ~players
+	botPrefix = "!"
+	#Should the bot be allowed to whitelist/un-whitelist players
+	whitelisting = true
+	#Do not add Playing. A status to display on the bot. You can use %players% and %maxplayers% to show the number of players on the server
+	botStatus = "Minecraft"
+
+#Webhook Config
+[webhookConfig]
+	#Should webhook messages be used
+	enabled = true
+	#The URL of the channel webhook
+	webhookurl = "CHANGEMECHANGEMECHANGEMECHANGEMECHANGEMECHANGEMECHANGEMECHANGEMECHANGEMECHANGEME"
+	#A DIRECT link to an image to use as the avatar for server messages
+	serverAvatar = ""
+
+#Chat Config
+[chatConfig]
+	#The ID of the channel to post in. This will be ignored if webhooks are enabled
+	channelID = 919803584265195541
+	#If this ID is set, event messages will be posted in this channel instead of the chat channel
+	logChannelID = 0
+	#Should messages from bots be relayed
+	ignoreBots = true
+	#Should SERVER STARTING messages be shown
+	serverStarting = true
+	#Should SERVER STARTED messages be shown
+	serverStarted = true
+	#Should SERVER STOPPING messages be shown
+	serverStopping = true
+	#Should SERVER STOPPED messages be shown
+	serverStopped = true
+	#Should the chat be relayed
+	playerMessages = true
+	#Should Join and Leave messages be posted
+	joinAndLeaveMessages = true
+	#Should Advancement messages be posted
+	advancementMessages = true
+	#Should Death Announcements be posted
+	deathMessages = true
+	#Should Messages from the /say command be posted
+	sendSayCommand = false
+	#Should commands be posted to discord
+	broadcastCommands = false
+	#Should Tell Raw messages be posted
+	sendTellRaw = false
+
+#Change the contents of certain event messages
+[messages]
+	#Server Starting Message
+	serverStarting = "Server is starting..."
+	#Server Started Message
+	serverStarted = "Server has started. Enjoy!"
+	#Server Stopping Message
+	serverStopping = "Server is stopping..."
+	#Server Stopped Message
+	serverStopped = "Server has stopped..."
+	#Player Joined Message. Use %player% to display the player name
+	playerJoined = "%player% has joined the server!"
+	#Player Left Message. Use %player% to display the player name
+	playerLeft = "%player% has left the server!"
+
