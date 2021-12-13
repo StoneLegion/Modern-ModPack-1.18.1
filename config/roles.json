@@ -50,8 +50,12 @@
   "everyone": {
     "overrides": {
       "name_style": ["aqua", "bold"],
+      "permission_keys": {
+        "tabtps.*": "allow"
+      },
       "commands": {
         "help": "allow",
+        "tps": "allow",
         ".*": "deny"
       }
     }
