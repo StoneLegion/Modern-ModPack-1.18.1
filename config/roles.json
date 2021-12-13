@@ -1,0 +1,59 @@
+{
+  "god": {
+    "level": 100,
+    "overrides": {
+      "name_style": ["green", "bold"],
+      "chat_format": "<%s> %s",
+      "permission_level": 4,
+      "command_feedback": true,
+      "commands": {
+        ".*": "allow"
+      }
+    }
+  },
+  "admin": {
+    "level": 99,
+    "overrides": {
+      "name_style": ["darkred", "bold"],
+      "chat_format": "<%s> %s",
+      "permission_level": 4,
+      "command_feedback": true,
+      "commands": {
+        ".*": "allow"
+      }
+    }
+  },
+  "vip": {
+    "level": 20,
+    "overrides": {
+      "name_style": ["red", "bold"],
+      "commands": {
+        "gamemode (spectator|adventure)": "allow"
+      }
+    }
+  },
+  "spectator": {
+    "level": 10,
+    "overrides": {
+      "name_style": ["aqua", "bold"],
+      "commands": {
+        "gamemode (spectator|adventure)": "allow"
+      }
+    }
+  },
+  "mute": {
+    "level": 1,
+    "overrides": {
+      "mute": true
+    }
+  },
+  "everyone": {
+    "overrides": {
+      "name_style": ["aqua", "bold"],
+      "commands": {
+        "help": "allow",
+        ".*": "deny"
+      }
+    }
+  }
+}
