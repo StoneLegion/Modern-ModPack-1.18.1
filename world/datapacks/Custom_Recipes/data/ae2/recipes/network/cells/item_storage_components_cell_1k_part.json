@@ -7,16 +7,16 @@
   ],
   "key": {
     "a": {
-      "item": "ae2:smooth_sky_stone_block"
+      "item": "modern_industrialization:analog_circuit"
     },
     "b": {
-      "item": "ae2:fluix_crystal"
+      "tag": "ae2:all_certus_quartz"
     },
     "c": {
-      "item": "modern_industrialization:digital_circuit"
+      "item": "ae2:logic_processor"
     }
   },
   "result": {
-    "item": "ae2:controller"
+    "item": "ae2:cell_component_1k"
   }
 }
