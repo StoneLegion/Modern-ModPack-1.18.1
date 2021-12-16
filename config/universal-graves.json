@@ -29,7 +29,7 @@
   "breakingTime": 259200,
   "breakEmptyGraves": true,
   "xpStorageType": "percent_points",
-  "xpPercentTypeValue": 100.0,
+  "xpPercentTypeValue": 25.0,
   "replaceAnyBlock": false,
   "maxPlacementDistance": 8,
   "createFromPvP": true,
