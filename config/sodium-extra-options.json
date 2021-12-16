@@ -41,7 +41,7 @@
     "show_coords": false,
     "reduce_resolution_on_mac": true,
     "cloud_height": 192,
-    "toasts": false,
+    "toasts": true,
     "instant_sneak": false,
     "prevent_shaders": false,
     "use_fast_random": true
