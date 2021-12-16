@@ -189,7 +189,9 @@ World_aliases:
     # Automatically generated, if regex matches world will not be added here.
     List:
         world: world
+        minecraft: the_nether: minecraft:the_nether
         minecraft:overworld: minecraft:overworld
+        minecraft:the_nether: minecraft:the_nether
     # List of - "alias:regex" rules, Set alias of multiple worlds that match regex to group them
     Regex:
       - "Alias for world:^abc$"
@@ -248,10 +250,12 @@ Customized_files:
         js/domUtils,js: false
         js/graphs,js: false
         js/pingTable,js: false
+        js/player-values,js: false
         js/sb-admin-2,js: false
         js/server-values,js: false
         js/sessionAccordion,js: false
         js/xmlhttprequests,js: false
+        player,html: false
         server,html: false
         vendor/datatables/datatables,min,css: false
         vendor/datatables/datatables,min,js: false
