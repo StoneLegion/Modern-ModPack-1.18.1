@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "modern_industrialization:steel_plate"
+    },
+    "b": {
+      "item": "ae2:quartz_glass"
+    },
+    "c": {
+      "item": "modern_industrialization:electronic_circuit"
+    }
+  },
+  "result": {
+    "item": "ae2:energy_acceptor"
+  }
+}

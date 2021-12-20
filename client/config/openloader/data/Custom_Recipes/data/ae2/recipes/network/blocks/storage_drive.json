@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "modern_industrialization:steel_plate"
+    },
+    "b": {
+      "item": "ae2:engineering_processor"
+    },
+    "c": {
+      "item": "ae2:fluix_glass_cable"
+    },
+    "d": {
+      "item": "modern_industrialization:digital_circuit"
+    }
+  },
+  "result": {
+    "item": "ae2:drive"
+  }
+}

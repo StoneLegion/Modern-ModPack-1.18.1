@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "a  ",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "modern_industrialization:steel_plate"
+    },
+    "b": {
+      "item": "modern_industrialization:analog_circuit"
+    }
+  },
+  "result": {
+    "item": "ae2:charger"
+  }
+}
