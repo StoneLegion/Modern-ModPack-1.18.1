@@ -23,4 +23,5 @@ onEvent('rei.hide.items', event => {
 	event.hide('crimsonshammers:handle_stone')
 	event.hide('crimsonshammers:handle_golden')
 	event.hide('crimsonshammers:handle_copper')
+	event.hide('crimsonshammers:handle_netherite')
 })
