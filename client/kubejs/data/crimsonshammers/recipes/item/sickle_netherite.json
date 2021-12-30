@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "crimsonshammers:sickle_diamond"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "item": "crimsonshammers:sickle_netherite"
+  }
+}

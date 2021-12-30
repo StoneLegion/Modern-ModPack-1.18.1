@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "crimsonshammers:handle_diamond"
+    },
+    "X": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "crimsonshammers:sickle_diamond"
+  }
+}

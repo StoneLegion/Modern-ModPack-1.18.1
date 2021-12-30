@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "crimsonshammers:handle_iron"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "crimsonshammers:excavator_iron"
+  }
+}
