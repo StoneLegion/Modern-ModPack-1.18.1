@@ -1,0 +1,21 @@
+{
+  "type": "modern_industrialization:mixer",
+  "eu": 32,
+  "duration": 6000,
+  "item_inputs": [
+    {
+      "item": "minecraft:soul_sand",
+      "amount": 1
+    },
+    {
+      "tag": "c:annealed_copper_dusts",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "xps:soul_copper_blend",
+      "amount": 1
+    }
+  ]
+}

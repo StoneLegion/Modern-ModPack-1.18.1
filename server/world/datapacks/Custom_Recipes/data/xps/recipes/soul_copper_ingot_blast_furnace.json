@@ -1,0 +1,17 @@
+{
+  "type": "modern_industrialization:blast_furnace",
+  "eu": 64,
+  "duration": 6000,
+  "item_inputs": [
+    {
+      "item": "xps:soul_copper_blend",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "xps:soul_copper_ingot",
+      "amount": 1
+    }
+  ]
+}
