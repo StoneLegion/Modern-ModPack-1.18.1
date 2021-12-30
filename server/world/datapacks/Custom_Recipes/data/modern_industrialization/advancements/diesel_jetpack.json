@@ -1,0 +1,37 @@
+{
+  "parent": "modern_industrialization:digital_circuit",
+  "display": {
+    "icon": {
+      "item": "modern_industrialization:diesel_jetpack"
+    },
+    "title": {
+      "translate": "advancements.modern_industrialization.diesel_jetpack"
+    },
+    "description": {
+      "translate": "advancements.modern_industrialization.diesel_jetpack.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "checkInv": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "modern_industrialization:diesel_jetpack"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "checkInv"
+    ]
+  ]
+}
