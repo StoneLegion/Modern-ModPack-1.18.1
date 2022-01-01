@@ -1,6 +1,6 @@
 {
   "type": "modern_industrialization:blast_furnace",
-  "eu": 64,
+  "eu": 32,
   "duration": 6000,
   "item_inputs": [
     {
