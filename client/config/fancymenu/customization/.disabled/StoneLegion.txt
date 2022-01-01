@@ -1,0 +1,36 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  description = Join Our Discord Server for Help, Support, And To Play Our Server!
+  label = Discord
+  loopbackgroundanimations = true
+  x = 220
+  width = 200
+  actionid = fe685ffb-0c79-4bba-a6c8-42f97167769c1641008739433
+  action = addbutton
+  y = 168
+  value = https://discord.gg/kBTabCX
+  height = 20
+}
+
+customization {
+  identifier = %id=400334%
+  action = hidebutton
+}
+
