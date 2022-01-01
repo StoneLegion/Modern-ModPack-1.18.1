@@ -1,10 +1,12 @@
 {
   "general": {
     "unsupportedDeveloperTools": false,
-    "__comment": "Server operators are not restricted by ME security terminal settings.",
+    "__comment": "The number of pathfinding steps that are taken per tick and per grid that is booting. Lower numbers will mean booting takes longer, but less work is done per tick.",
     "matterCannonBlockDamage": true,
     "tinyTntBlockDamage": true,
-    "serverOpsIgnoreSecurity": true
+    "serverOpsIgnoreSecurity": true,
+    "channels": "default",
+    "pathfindingStepsPerTick": 4
   },
   "automation": {
     "formationPlaneEntityLimit": 128
@@ -64,6 +66,10 @@
     "wirelessBoosterExp": 1.5,
     "wirelessHighWirelessCount": 64.0,
     "wirelessTerminalDrainMultiplier": 1.0
+  },
+  "PortableCells": {
+    "__comment": "Allow disassembly of portable cells into the recipe ingredients using shift+right-click",
+    "allowDisassembly": true
   },
   "PowerRatios": {
     "TechReborn": 2.0,
