@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "ABA",
+        "B B",
+        "ABA"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "modern_industrialization:cupronickel_wire_magnetic"
+        },
+        "B":
+        {
+            "item": "modern_industrialization:steel_rod_magnetic"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ring_of_attraction:ring_of_attraction",
+        "count": 1
+    }
+}
