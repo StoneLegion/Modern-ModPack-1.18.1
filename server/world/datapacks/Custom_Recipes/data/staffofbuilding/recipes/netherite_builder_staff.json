@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "staffofbuilding:diamond_builder_staff"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "item": "staffofbuilding:netherite_builder_staff"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  X",
+    " # ",
+    "#  "
+  ],
+  "key": {
+    "#": {
+      "item": "modern_industrialization:aluminum_rod"
+    },
+    "X": {
+      "item": "modern_industrialization:diamond_plate"
+    }
+  },
+  "result": {
+    "item": "staffofbuilding:diamond_builder_staff"
+  }
+}
