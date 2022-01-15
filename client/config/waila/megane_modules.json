@@ -4,16 +4,22 @@
       "badasintended.megane.impl.TeamRebornEnergy": true
     },
     "megane-fabric-transfer": {
+      "lol.bai.megane.module.fabrictransfer.MeganeFabricTransfer": true,
       "badasintended.megane.impl.FabricTransfer": true
     },
     "megane-modern-industrialization": {
       "badasintended.megane.impl.ModernIndustrialization": true
     },
     "megane-applied-energistics-2": {
+      "lol.bai.megane.module.ae2.MeganeAppliedEnergistics2": true,
       "badasintended.megane.impl.AppliedEnergistics2": true
     },
+    "megane-reborn-energy": {
+      "lol.bai.megane.module.rebornenergy.MeganeRebornEnergy": true
+    },
     "megane-vanilla": {
-      "badasintended.megane.impl.Minecraft": true
+      "badasintended.megane.impl.Minecraft": true,
+      "lol.bai.megane.module.vanilla.MeganeVanilla": true
     }
   }
 }
